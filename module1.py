@@ -36,3 +36,5 @@ def faili_sisu_umberkirjutamine(file:str):
 
 faili_sisu_umberkirjutamine(input("Faili nimetus")+".txt")
 
+
+

@@ -1,4 +1,12 @@
 import random
+def loe_failist(file:str)->str:
+    """Loeme tekst failist
+    """
+    f=open(file,'r')
+    #stroka=f.readlines()#list
+    stroka=f.read()#str
+    f.close()
+    return stroka  
 #Cоздаем функции
 def passautomat()->str:
 	"""Пароль создается машиной
