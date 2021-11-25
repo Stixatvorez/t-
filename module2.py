@@ -35,6 +35,8 @@ while True:
 		
 	elif v==3:
 		print("Välja")
+		faili_sisu_umberkirjutamine("users.txt",users)
+		faili_sisu_umberkirjutamine("passwords.txt",passwords)
 		break
 		#valmis
 	else:

@@ -7,6 +7,13 @@ def loe_failist(file:str)->str:
     stroka=f.read()#str
     f.close()
     return stroka  
+
+def faili_sisu_umberkirjutamine(file:str,list_:list):
+    with open(file,'w') as f:
+        f.write(text+'\n')
+		for slovo in list_:
+			f.write(slovo+'\n')
+
 #Cоздаем функции
 def passautomat()->str:
 	"""Пароль создается машиной
